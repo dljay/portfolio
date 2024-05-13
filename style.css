@@ -1,0 +1,18 @@
+.contained-image {
+  max-width: 100%; /* Ensure image does not exceed parent width */
+  max-height: 100%; /* Ensure image does not exceed parent height */
+  object-fit: contain; /* Scale the image to fit inside the box while preserving aspect ratio */
+  overflow: hidden;
+}
+
+#myPic {
+  aspect-ratio: 4 / 3; /* Set the desired aspect ratio */
+  width: 100%; /* Ensure the image takes up full width of its container */
+  height: 100%; /* Ensure the image takes up full height of its container */
+  object-fit: cover; /* Crop the image to cover the container without distortion */
+  border-radius: 5%;
+}
+
+.jjMiddle-Container {
+  text-align: center;
+}
